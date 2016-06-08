@@ -1,0 +1,9 @@
+version: '2'
+services:
+
+  dummyHttpService:
+    build:
+      context: .
+    image: gtriggiano/dummy-http-service:development
+    ports:
+      - "8080:5000"
