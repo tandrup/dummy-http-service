@@ -1,6 +1,4 @@
-FROM mhart/alpine-node:5
-
-MAINTAINER Giacomo Triggiano <giacomo@creativecoding.it>
+FROM node:6
 
 ADD package.json package.json
 RUN npm install
