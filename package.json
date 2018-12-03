@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/gtriggiano/dummy-http-service#readme",
   "dependencies": {
-    "express": "4.13.4"
+    "express": "4.16.4"
   }
 }
