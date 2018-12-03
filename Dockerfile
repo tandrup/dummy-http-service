@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:8-slim
 
 ADD package.json package.json
 RUN npm install
